@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;_00_ConnectTest.sql, _02_오라클자료형.sql, _02_유저생성하기.sql, _03_테이블생성.sql&apos; to &apos;2022_0411_SQL기초&apos;" description="Move 4 resources to &apos;2022_0411_SQL기초&apos;" destination="/2022_0411_SQL기초" element1="/2022_0411_OracleTest/src/main/_00_ConnectTest.sql" element2="/2022_0411_OracleTest/src/main/_02_오라클자료형.sql" element3="/2022_0411_OracleTest/src/main/_02_유저생성하기.sql" element4="/2022_0411_OracleTest/src/main/_03_테이블생성.sql" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="4" stamp="1649814511993" updateReferences="true"/>
+</session>

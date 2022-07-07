@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;2022_0414_연산자_변환함수_numeric함수/_00_SELECT연산자.sql&apos; to &apos;_00_연산자.sql&apos;" description="Rename resource &apos;_00_SELECT연산자.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="_00_SELECT연산자.sql" name="_00_연산자.sql" stamp="1649945649145" updateReferences="true"/>
+</session>

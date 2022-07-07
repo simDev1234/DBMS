@@ -1,0 +1,20 @@
+RF. MVC 모델.. 
+
+MODEL : DB 데이터를 담은 DAO객체
+CONTROLLER : 뷰에 뿌려주기 위한 컨트롤러 **AbstractTableModel
+VIEW : 화면 뷰
+
+
+스윙을 사용해서 데이터 뷰를 만들어줄 것
+- JTable 
+- 내부클래스로 데이터 모델 형성(일종의 컨트롤러) **extends AbstractTableModel
+  **모델안에서 리스트의 행열 사이즈, 칼럼명 설정, 데이터 뿌려주기 
+  **칼럼 헤딩도 문자열 배열로 받는다.
+
+■ JTable의 메소드
+- getSelectedRow() : 현재 선택된 행의 위치를 반환
+- setRowSelectionInterval(시작행, 끝행) : 시작행~끝행까지 행을 선택
+
+
+//DB서버를 껐다켰다 하면 시퀀스를 유지 X 
+--> 오라클이 시퀀스를 재설정함 

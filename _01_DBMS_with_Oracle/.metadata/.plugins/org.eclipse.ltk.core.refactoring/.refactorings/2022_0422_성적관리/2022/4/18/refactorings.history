@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;성적DB.sql&apos; to &apos;2022_0422_성적관리/src/mymain.test&apos;&#x0D;&#x0A;- Original project: &apos;2022_0422_성적관리&apos;&#x0D;&#x0A;- Destination element: &apos;2022_0422_성적관리/src/mymain.test&apos;&#x0D;&#x0A;- Original element: &apos;성적DB.sql&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;mymain.test" element1="성적DB.sql" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1650855606347" units="0" version="1.0"/>
+</session>

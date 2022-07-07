@@ -1,0 +1,24 @@
+이클립스 내에 ERD 플러그인 있음
+https://codenbike.tistory.com/70
+
+eXED 사이트
+https://ko.exerd.com/down.jsp
+설치 링크
+http://exerd.com/update/exerd/3.x/
+
+**웹 프로그래밍
+크롬 - 디버깅이 쉬움
+
+-------------------------------------
+
+apache.org
+
+설치과정
+[1] 압축풀기
+[2] apache-tomcat-8.5.78를 c드라이브로 이동
+[3] path 설정 : *CATALINA가 톰캣의 별칭
+    CATALINA_HOME = c:\apache-tomcat-8.5.78
+
+
+
+

@@ -1,0 +1,20 @@
+/*
+   Subquery
+   : subquery(하위쿼리)의 실행결과를 이용해서 Mainquery(주쿼리)를 수행하는 쿼리문
+   
+   -- 사원 테이블에서 최불암과 동일한 부서 직원 추출
+   SELECT * FROM sawon 
+     WHERE deptno = (SELECT deptno FROM sawon WHERE saname = '최불암')
+   
+   >> 단일 행 결과 나옴 (= , >= , <= , != 모두 단일행 찾을 때 사용)
+   
+   INSERT INTO sawon VALUES(21,'최불암','남자',20,'과장',TO_DATE('1984-7-25 13:00:00','YYYY-MM-DD HH24:MI:SS'),2,3800);
+   
+   >> 오류 발생 (단일 행이 아님으로 나타남)
+   *** 해결 : in (  ) 을 사용
+   
+   SELECT * FROM sawon
+     WHERE deptno IN (SELECT deptno FROM sawon WHERE saname = '최불암')
+   
+   
+*/
